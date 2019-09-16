@@ -54,6 +54,18 @@
                 -3px -2px 5px rgba(13, 13, 10, 0.5);
         }
 
+        .wrap {
+            max-width: 32rem;
+            display: block;
+            margin: auto;
+        }
+
+        blockquote {
+            font-style: italic;
+            font-size: 1.2rem;
+            color: #888;
+        }
+
         @media only screen and (max-width: 768px) {
             #decorative {
                 width: 1rem;
@@ -64,15 +76,29 @@
 
 <body>
     <div id="decorative"></div>
-    <h1>This Book is Anti-Racist</h1>
-    <img itemprop="image" alt="This Book Is Anti-Racist"
-        src="https://cloud.firebrandtech.com/api/v2/img/111/9780711245211/L">
-    <div>Written by <a href="https://anti-biasmontessori.com/">Tiffany M Jewell</a> and illustrated by
-        <a href="https://www.aurelia-studio.com/">Aurélia
-            Durand</a></div>
-    <div><a href="https://www.quartoknows.com/books/9780711245211/This-Book-Is-Anti-Racist.html">From Quarto
-            Publishers</a></div>
-    <h2><a href="https://www.amazon.com/This-Book-Anti-Racist-lessons-action/dp/0711245215/">Buy it here</a></h2>
+    <main class="wrap">
+        <h1>This Book is Anti-Racist</h1>
+        <img itemprop="image" alt="This Book Is Anti-Racist"
+            src="https://cloud.firebrandtech.com/api/v2/img/111/9780711245211/L">
+        <div>Written by <a href="https://anti-biasmontessori.com/">Tiffany M Jewell</a> and illustrated by
+            <a href="https://www.aurelia-studio.com/">Aurélia
+                Durand</a></div>
+        <div><a href="https://www.quartoknows.com/books/9780711245211/This-Book-Is-Anti-Racist.html">From Quarto
+                Publishers</a></div>
+        <h2><a href="https://www.amazon.com/This-Book-Anti-Racist-lessons-action/dp/0711245215/">Buy it here</a></h2>
+        <blockquote cite="https://www.kirkusreviews.com/book-reviews/tiffany-jewell/this-book-is-anti-racist/">
+            <p>Combining the disruption of common fallacies, spotlights on change makers, the author’s personal
+                reflections,
+                and a call to action, this powerful book has something for all young people no matter what stage they
+                are at
+                in terms of awareness or activism.</p>
+            <p>Essential.</p>
+            <footer>
+                <a href="https://www.kirkusreviews.com/book-reviews/tiffany-jewell/this-book-is-anti-racist/">Kirkus
+                    Reviews</a>
+            </footer>
+        </blockquote>
+    </main>
 </body>
 
 </html>
